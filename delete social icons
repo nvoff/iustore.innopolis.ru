@@ -1,0 +1,8 @@
+// ==UserScript==
+// @name delete social icons
+// @grant nvoff
+// @author nvoff
+// @description delete social icons https://iustore.innopolis.ru/
+// ==/UserScript==
+
+document.getElementsByClassName("t-sociallinks")[0].remove();

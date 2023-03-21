@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name        New script - innopolis.ru 1
+// @namespace   Violentmonkey Scripts 1
+// @match       https://iustore.innopolis.ru/
+// @grant       none
+// @version     1.0
+// @author      -
+// @description 10.08.2022, 17:32:50
+// ==/UserScript==
+
+
+header {
+    position: fixed;
+    ...
+}
+
+@media only screen and (max-width: 1080px) {
+     header { position: absolute; }
+}

@@ -1,0 +1,13 @@
+// ==UserScript==
+// @name        Block
+// @namespace   Violentmonkey Scripts
+// @match       *://*/*
+// @grant       none
+// @version     1.0
+// @author      nikk178
+// @description 19.07.2022, 06:15:47
+// ==/UserScript==
+
+window.addEventListener('contextmenu', function (e) { 
+  e.preventDefault(); 
+}, false);
